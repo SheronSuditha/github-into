@@ -26,19 +26,44 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            height: 80vh;
             flex-direction: column;
+            text-align: center;
         }
+
+        .main-container {
+            display: flex;
+        }
+
+        .second-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .inner-container {
+            text-align: center;
+        }
+
     </style>
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
+    <div class="wrapper">
         <div class="inner-container">      
             <img src="https://logos-download.com/wp-content/uploads/2016/02/Google_Logo_2013.png" width="500px" alt="">
         </div>
-        <h1>Helloooooo World</h1>
-        <h3>Im going to push this to github</h3>
+        <div class="main-container">
+            <div class="container">
+                
+                <h1>Helloooooo World</h1>
+                <h3>Im going to push this to github</h3>
+            </div>
+            <div class="second-container">
+                <h1>This is another container</h1>
+            </div>
+        </div>
     </div>
 </body>
 </html>
